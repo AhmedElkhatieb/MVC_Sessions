@@ -1,0 +1,12 @@
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.deps.json
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.pdb
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.AssemblyInfoInputs.cache
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.AssemblyInfo.cs
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.csproj.CoreCompileInputs.cache
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\refint\IKEA.DAL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.pdb
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\ref\IKEA.DAL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.deps.json
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.pdb
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.DAL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.DAL.pdb
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.AssemblyReference.cache
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfoInputs.cache
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfo.cs
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.CoreCompileInputs.cache
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.Up2Date
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\refint\IKEA.BLL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.pdb
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\ref\IKEA.BLL.dll
