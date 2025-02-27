@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IKEA.DAL.Persistance.Repsitories.Departments
 {
-    internal class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : IDepartmentRepository
     {
         private readonly ApplicationDbContext _DbContext;
         public DepartmentRepository(ApplicationDbContext dbContext)
@@ -23,6 +23,11 @@ namespace IKEA.DAL.Persistance.Repsitories.Departments
                 return _DbContext.Departments.AsNoTracking().ToList();
             }
             return _DbContext.Departments.ToList();
+        }
+
+        public IQueryable<Department> GetAllAsQueryable()
+        {
+            return _DbContext.Departments;
         }
 
         public Department? GetById(int id)
@@ -49,6 +54,8 @@ namespace IKEA.DAL.Persistance.Repsitories.Departments
         {
             _DbContext.Departments.Remove(entity);
             return _DbContext.SaveChanges();
-        }  
+        }
+
+        
     }
 }

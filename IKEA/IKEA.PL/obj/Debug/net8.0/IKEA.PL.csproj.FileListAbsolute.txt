@@ -150,3 +150,4 @@ C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.PL\bin\Debug\net8.0\ru\Microsoft.Co
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.PL\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.PL\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.PL\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.PL\obj\Debug\net8.0\IKEA.PL.sourcelink.json

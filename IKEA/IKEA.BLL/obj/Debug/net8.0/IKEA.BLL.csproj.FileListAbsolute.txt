@@ -13,3 +13,4 @@ C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.dll
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\refint\IKEA.BLL.dll
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.pdb
 C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\ref\IKEA.BLL.dll
+C:\Web\Backend\05 MVC\MVC_Sessions\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.sourcelink.json

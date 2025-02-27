@@ -40,7 +40,7 @@ namespace IKEA.DAL.Persistance.Data.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETDATE()");
+                        .HasDefaultValueSql("GETUTCDATE()");
 
                     b.Property<DateOnly>("CreationDate")
                         .HasColumnType("date");
