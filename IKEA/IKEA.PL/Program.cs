@@ -1,3 +1,4 @@
+using IKEA.BLL.Services.Departments;
 using IKEA.DAL.Persistance.Data;
 using IKEA.DAL.Persistance.Repsitories.Departments;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +28,7 @@ namespace IKEA.PL
             {
                 optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             }));
+            builder.Services.AddScoped<IDepartmentService, DepartmentService>();
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             #endregion
             var app = builder.Build();
