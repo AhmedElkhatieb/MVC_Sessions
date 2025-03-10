@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\repsitories\\departments\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\repsitories\\departments\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\repsitories\\employees\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\repsitories\\employees\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\repsitories\\departments\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\repsitories\\departments\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\repsitories\\_generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\repsitories\\_generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\repsitories\\employees\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\repsitories\\employees\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\models\\employees\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\models\\employees\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,93 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Index.cshtml",
-              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "IKEA.PL\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAACAAAADAmZmZmZkrwCgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T20:07:18.901Z",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\_Generic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\Repsitories\\_Generic\\GenericRepository.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\_Generic\\GenericRepository.cs",
+              "RelativeToolTip": "IKEA.DAL\\Persistance\\Repsitories\\_Generic\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T20:31:43.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Details.cshtml",
-              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Department\\Details.cshtml",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Details.cshtml",
-              "RelativeToolTip": "IKEA.PL\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAACoAAACAZmZmZmYkwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T19:59:46.263Z",
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Departments\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\Repsitories\\Departments\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Departments\\DepartmentRepository.cs",
+              "RelativeToolTip": "IKEA.DAL\\Persistance\\Repsitories\\Departments\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAcAAADgzMzMzMwwwBUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T20:24:23.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Employees\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\Repsitories\\Employees\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Employees\\EmployeeRepository.cs",
+              "RelativeToolTip": "IKEA.DAL\\Persistance\\Repsitories\\Employees\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAABAMzMzMzMbwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T20:23:59.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Department\\Delete.cshtml",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Delete.cshtml",
-              "RelativeToolTip": "IKEA.PL\\Views\\Department\\Delete.cshtml",
-              "ViewState": "AgIAADoAAABAMzMzMzMbwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T19:58:38.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Department\\Create.cshtml",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "IKEA.PL\\Views\\Department\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T19:31:39.88Z",
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Departments\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\Repsitories\\Departments\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Departments\\IDepartmentRepository.cs",
+              "RelativeToolTip": "IKEA.DAL\\Persistance\\Repsitories\\Departments\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T20:22:21.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "IKEA.PL\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAABwAAACAMzMzMzMLwAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T19:23:22.21Z",
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Employees\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\Repsitories\\Employees\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\Repsitories\\Employees\\IEmployeeRepository.cs",
+              "RelativeToolTip": "IKEA.DAL\\Persistance\\Repsitories\\Employees\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T20:22:11.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Program.cs",
-              "RelativeDocumentMoniker": "IKEA.PL\\Program.cs",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Program.cs",
-              "RelativeToolTip": "IKEA.PL\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB4AAABQAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Models\\Employees\\Employee.cs",
+              "RelativeDocumentMoniker": "IKEA.DAL\\Models\\Employees\\Employee.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Models\\Employees\\Employee.cs",
+              "RelativeToolTip": "IKEA.DAL\\Models\\Employees\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T17:41:58.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "IKEA.PL\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "IKEA.PL\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAcwLsAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:10:08.436Z",
+              "WhenOpened": "2025-03-10T19:46:35.041Z",
               "EditorCaption": ""
             }
           ]

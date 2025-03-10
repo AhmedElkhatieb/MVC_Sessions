@@ -5,57 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using IKEA.DAL.Models.Departments;
 using IKEA.DAL.Persistance.Data;
+using IKEA.DAL.Persistance.Repsitories._Generic;
 using Microsoft.EntityFrameworkCore;
 
 namespace IKEA.DAL.Persistance.Repsitories.Departments
 {
-    public class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : GenericRepository<Department>, IDepartmentRepository
     {
-        private readonly ApplicationDbContext _DbContext;
-        public DepartmentRepository(ApplicationDbContext dbContext)
+        public DepartmentRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
-            _DbContext = dbContext;  
-        }
-        public IEnumerable<Department> GetAll(bool WithNoTracking = true)
-        {
-            if (WithNoTracking)
-            {
-                return _DbContext.Departments.AsNoTracking().ToList();
-            }
-            return _DbContext.Departments.ToList();
+            //Ask CLR For Object From ApplicationDbContext Immplicitly
         }
 
-        public IQueryable<Department> GetAllAsQueryable()
+        public IEnumerable<Department> GetSpecificDepartments()
         {
-            return _DbContext.Departments;
+            //_DbContext
+            throw new NotImplementedException();
         }
-
-        public Department? GetById(int id)
-        {
-            //var department = _DbContext.Departments.Local.FirstOrDefault(D => D.Id == id);
-            //return department;
-            ////.Local to search it locally if we already got it or use find
-            return _DbContext.Departments.Find(id);
-        }
-
-        public int Add(Department entity)
-        {
-            _DbContext.Departments.Add(entity);
-            return _DbContext.SaveChanges();
-        }
-
-        public int Update(Department entity)
-        {
-            _DbContext.Departments.Update(entity);
-            return _DbContext.SaveChanges();
-        }
-
-        public int Delete(Department entity)
-        {
-            _DbContext.Departments.Remove(entity);
-            return _DbContext.SaveChanges();
-        }
-
-        
     }
 }
