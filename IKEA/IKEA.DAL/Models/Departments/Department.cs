@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IKEA.DAL.Models.Employees;
 
 namespace IKEA.DAL.Models.Departments
 {
@@ -12,5 +13,9 @@ namespace IKEA.DAL.Models.Departments
         public string Code { get; set; } = null!;
         public string? Description { get; set; }
         public DateOnly CreationDate { get; set; }
+        #region Employee
+        // Navigational Property [Many]
+        public virtual ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
+        #endregion
     }
 }

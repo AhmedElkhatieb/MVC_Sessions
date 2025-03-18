@@ -24,6 +24,15 @@ namespace IKEA.PL.Controllers
         //BaseURL/Department/Index
         public IActionResult Index()
         {
+            // Notes
+            // View Storage Dictionary: Pass Data From Controller [Action] To View
+            // From This View i can send message to partial view or layout
+            // 1- ViewData: Is a dictionary type property introduced in ASP.Net FrameWork 3.5
+                // It helps us to transfer data from controller [Action] to view
+           // 2- ViewBag: is a dynamic type property introduced in 4.0 based on dynamic property
+                // it helps us to transfer the data from Action to View
+            ViewData["Message"] = "Hello View Data";
+            ViewBag.Message = "Hello View Bag";
             var departments = _departmentService.GetAllDepartments();
             return View(departments);
         }
@@ -35,6 +44,7 @@ namespace IKEA.PL.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(CreatedDepartmentDto department)
         {
             if (!ModelState.IsValid)
@@ -45,16 +55,21 @@ namespace IKEA.PL.Controllers
             try
             {
                 var Resault = _departmentService.CreateDepartment(department);
+                // Temp Data: is a property of type dictionary object introduced in 3.5
+                // is used for transfering the data between 2 requests
                 if (Resault > 0)
                 {
+                    TempData["Message"] = "Department Is Created";
                     return RedirectToAction(nameof(Index));
                 }
                 else
                 {
+                    TempData["Message"] = "Department Isn't Created";
                     message = "Sorry, The Department has not been created";
                     ModelState.AddModelError(string.Empty, message);
                     return View(department);
                 }
+
             }
             catch (Exception ex)
             {
@@ -104,9 +119,8 @@ namespace IKEA.PL.Controllers
             {
                 return NotFound();
             }
-            var viewModel = new DepartmentEditViewModel()
+            var viewModel = new CreatedDepartmentDto()
             {
-                Id = department.Id,
                 Code = department.Code,
                 Name = department.Name,
                 CreationDate = department.CreationDate,
@@ -115,7 +129,8 @@ namespace IKEA.PL.Controllers
             return View(viewModel);
         }
         [HttpPost]
-        public IActionResult Edit(int id, DepartmentEditViewModel departmentVM)
+        [ValidateAntiForgeryToken]
+        public IActionResult Edit(int id, CreatedDepartmentDto departmentVM)
         {
             if (!ModelState.IsValid)
             {
@@ -165,6 +180,7 @@ namespace IKEA.PL.Controllers
             return View(department);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Delete(int id)
         {
             var message = string.Empty;

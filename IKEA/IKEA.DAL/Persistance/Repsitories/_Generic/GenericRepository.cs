@@ -21,9 +21,9 @@ namespace IKEA.DAL.Persistance.Repsitories._Generic
         {
             if (WithNoTracking)
             {
-                return _DbContext.Set<T>().AsNoTracking().ToList();
+                return _DbContext.Set<T>().Where(X => !X.IsDeleted).AsNoTracking().ToList();
             }
-            return _DbContext.Set<T>();
+            return _DbContext.Set<T>().Where(X => !X.IsDeleted);
         }
 
         public IQueryable<T> GetAllAsQueryable()
@@ -53,6 +53,7 @@ namespace IKEA.DAL.Persistance.Repsitories._Generic
 
         public int Delete(T entity)
         {
+            entity.IsDeleted = true;
             _DbContext.Set<T>().Remove(entity);
             return _DbContext.SaveChanges();
         }

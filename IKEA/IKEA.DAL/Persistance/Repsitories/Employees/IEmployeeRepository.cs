@@ -8,7 +8,7 @@ using IKEA.DAL.Persistance.Repsitories._Generic;
 
 namespace IKEA.DAL.Persistance.Repsitories.Employees
 {
-    internal interface IEmployeeRepository : IGenericRepository<Employee>
+    public interface IEmployeeRepository : IGenericRepository<Employee>
     {
         
     }

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IKEA.DAL.Persistance.Repsitories.Employees
 {
-    internal class EmployeeRepository : GenericRepository<Employee>, IEmployeeRepository
+    public class EmployeeRepository : GenericRepository<Employee>, IEmployeeRepository
     {
         public EmployeeRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
