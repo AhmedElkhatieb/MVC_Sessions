@@ -1,4 +1,5 @@
-﻿using IKEA.BLL.Models.Departments;
+﻿using AutoMapper;
+using IKEA.BLL.Models.Departments;
 using IKEA.BLL.Services.Departments;
 using IKEA.PL.Models.Departments;
 using Microsoft.AspNetCore.Mvc;
@@ -10,13 +11,15 @@ namespace IKEA.PL.Controllers
         private readonly IDepartmentService _departmentService;
         private readonly ILogger _logger;
         private readonly IWebHostEnvironment _environment;
+        private readonly IMapper _mapper;
 
         #region Services
-        public DepartmentController(IDepartmentService departmentService, ILogger<DepartmentController> logger, IWebHostEnvironment environment)
+        public DepartmentController(IDepartmentService departmentService, ILogger<DepartmentController> logger, IWebHostEnvironment environment, IMapper mapper)
         {
             _departmentService = departmentService;
             _logger = logger;
             _environment = environment;
+            _mapper = mapper;
         }
         #endregion
         #region Index
@@ -41,20 +44,22 @@ namespace IKEA.PL.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            var departmentVM = new DepartmentEditViewModel();
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(CreatedDepartmentDto department)
+        public IActionResult Create(DepartmentEditViewModel departmentVM)
         {
             if (!ModelState.IsValid)
             {
-                return View(department);
+                return View(departmentVM);
             }
             var message = string.Empty;
             try
             {
-                var Resault = _departmentService.CreateDepartment(department);
+                var createdDepartment = _mapper.Map<CreatedDepartmentDto>(departmentVM);
+                var Resault = _departmentService.CreateDepartment(createdDepartment);
                 // Temp Data: is a property of type dictionary object introduced in 3.5
                 // is used for transfering the data between 2 requests
                 if (Resault > 0)
@@ -67,7 +72,7 @@ namespace IKEA.PL.Controllers
                     TempData["Message"] = "Department Isn't Created";
                     message = "Sorry, The Department has not been created";
                     ModelState.AddModelError(string.Empty, message);
-                    return View(department);
+                    return View(departmentVM);
                 }
 
             }
@@ -79,7 +84,7 @@ namespace IKEA.PL.Controllers
                 if (_environment.IsDevelopment())
                 {
                     message = ex.Message;
-                    return View(department);
+                    return View(departmentVM);
                 }
                 else
                 {
@@ -119,18 +124,12 @@ namespace IKEA.PL.Controllers
             {
                 return NotFound();
             }
-            var viewModel = new CreatedDepartmentDto()
-            {
-                Code = department.Code,
-                Name = department.Name,
-                CreationDate = department.CreationDate,
-                Description = department.Description
-            };
-            return View(viewModel);
+            var departmentVM = _mapper.Map<DepartmentDetailsToReturnDto, DepartmentEditViewModel>(department);
+            return View(departmentVM);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(int id, CreatedDepartmentDto departmentVM)
+        public IActionResult Edit(int id, DepartmentEditViewModel departmentVM)
         {
             if (!ModelState.IsValid)
             {
@@ -139,16 +138,18 @@ namespace IKEA.PL.Controllers
             var message = string.Empty;
             try
             {
-                var updatedDepartment = new UpdateDepartmentDto()
-                {
-                    Id = id,
-                    Code = departmentVM.Code,
-                    Name = departmentVM.Name,
-                    CreationDate = departmentVM.CreationDate,
-                    Description = departmentVM.Description
-                };
-                var updated = _departmentService.UpdateDepartment(updatedDepartment);
-                if (updated > 0)
+                //// Manual Mapping
+                //var updatedDepartment = new UpdateDepartmentDto()
+                //{
+                //    Id = id,
+                //    Code = departmentVM.Code,
+                //    Name = departmentVM.Name,
+                //    CreationDate = departmentVM.CreationDate,
+                //    Description = departmentVM.Description
+                //};
+                var updatedDepartment = _mapper.Map<UpdateDepartmentDto>(departmentVM);
+                var result = _departmentService.UpdateDepartment(updatedDepartment);
+                if (result > 0)
                 {
                     return RedirectToAction(nameof(Index));
                 }
