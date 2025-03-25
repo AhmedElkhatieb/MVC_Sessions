@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.dal\\persistance\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04384AD6-A054-468B-BEF0-1B95A4FEBC02}|IKEA.DAL\\IKEA.DAL.csproj|solutionrelative:ikea.dal\\persistance\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|c:\\web\\backend\\05 mvc\\mvc_sessions\\ikea\\ikea.pl\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF932C3D-BAE0-4921-A3AC-D90835339120}|IKEA.PL\\IKEA.PL.csproj|solutionrelative:ikea.pl\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeToolTip": "IKEA.DAL\\Persistance\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T00:40:10.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "IKEA.DAL\\Persistance\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.DAL\\Persistance\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "IKEA.DAL\\Persistance\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAACIAAAAAMzMzMzMDwCsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T00:40:01.615Z",
+              "DocumentIndex": 3,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Account\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Account\\SignIn.cshtml",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Account\\SignIn.cshtml",
+              "RelativeToolTip": "IKEA.PL\\Views\\Account\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T00:44:15.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "IKEA.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "IKEA.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T00:43:41.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IKEA.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IKEA.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIIAAAAAMzMzMzMDwIUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T00:31:08.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Program.cs",
               "RelativeDocumentMoniker": "IKEA.PL\\Program.cs",
               "ToolTip": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\Program.cs",
               "RelativeToolTip": "IKEA.PL\\Program.cs",
-              "ViewState": "AgIAACIAAACAmZmZmZktwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAACAZ2ZmZmYSwEUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T00:38:23.805Z",
+              "WhenOpened": "2025-03-25T00:21:02.615Z",
               "EditorCaption": ""
             }
           ]

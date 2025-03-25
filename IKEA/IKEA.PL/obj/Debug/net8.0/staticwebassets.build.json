@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4GRV4TPoV9nhvsrnXJn0Gp4eUF09rOT1MpddvrIGv7s=",
+  "Hash": "7q8+6vopcPTSbucksjeSqVO9zoF4GM7lPoYWVnQBsE4=",
   "Source": "IKEA.PL",
   "BasePath": "_content/IKEA.PL",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IKEA.PL.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\AuthLayout.css",
+      "SourceId": "IKEA.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\",
+      "BasePath": "_content/IKEA.PL",
+      "RelativePath": "css/AuthLayout#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hv9sow44dx",
+      "Integrity": "Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN+oWemoVAgKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AuthLayout.css"
+    },
+    {
       "Identity": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\site.css",
       "SourceId": "IKEA.PL",
       "SourceType": "Discovered",
@@ -99,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg",
+      "SourceId": "IKEA.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\",
+      "BasePath": "_content/IKEA.PL",
+      "RelativePath": "Files/Images/dbcba906-3f64-46fd-b7ce-b97480f91ba5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v94cl0n8o4",
+      "Integrity": "XboY66yI3OXWXcg7S+C8MXH0i5FKyAYR6GjmqKNy2AI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg"
     },
     {
       "Identity": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\js\\site.js",
@@ -1321,6 +1363,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/AuthLayout.css",
+      "AssetFile": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\AuthLayout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN+oWemoVAgKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 20:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN+oWemoVAgKk="
+        }
+      ]
+    },
+    {
+      "Route": "css/AuthLayout.hv9sow44dx.css",
+      "AssetFile": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\AuthLayout.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN+oWemoVAgKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 20:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hv9sow44dx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/AuthLayout.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN+oWemoVAgKk="
+        }
+      ]
+    },
+    {
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1481,6 +1605,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Files/Images/dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg",
+      "AssetFile": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XboY66yI3OXWXcg7S+C8MXH0i5FKyAYR6GjmqKNy2AI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 18:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XboY66yI3OXWXcg7S+C8MXH0i5FKyAYR6GjmqKNy2AI="
+        }
+      ]
+    },
+    {
+      "Route": "Files/Images/dbcba906-3f64-46fd-b7ce-b97480f91ba5.v94cl0n8o4.jpeg",
+      "AssetFile": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XboY66yI3OXWXcg7S+C8MXH0i5FKyAYR6GjmqKNy2AI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 18:21:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v94cl0n8o4"
+        },
+        {
+          "Name": "label",
+          "Value": "Files/Images/dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XboY66yI3OXWXcg7S+C8MXH0i5FKyAYR6GjmqKNy2AI="
         }
       ]
     },

@@ -1,10 +1,14 @@
+using IKEA.BLL.Common.Services;
 using IKEA.BLL.Services.Departments;
+using IKEA.BLL.Services.EmailSettings;
 using IKEA.BLL.Services.Employees;
+using IKEA.DAL.Models.Identity;
 using IKEA.DAL.Persistance.Data;
 using IKEA.DAL.Persistance.Repsitories.Departments;
 using IKEA.DAL.Persistance.Repsitories.Employees;
 using IKEA.DAL.Persistance.UnitOfWork;
 using IKEA.PL.Mapping;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace IKEA.PL
@@ -39,10 +43,31 @@ namespace IKEA.PL
 
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            builder.Services.AddTransient<IAttachmentService, AttachmentService>();
+
             builder.Services.AddScoped<IDepartmentService, DepartmentService>();
             builder.Services.AddScoped<IEmployeeService, EmployeeService>();
             
             builder.Services.AddAutoMapper(M => M.AddProfile(new MappingProfile()));
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 5;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Lockout.AllowedForNewUsers = true;
+                options.Lockout.MaxFailedAccessAttempts = 5;
+            })
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/SignIn";
+            });
+            builder.Services.AddScoped<IEmailSettings, EmailSettings>();
             #endregion
 
             var app = builder.Build();
@@ -59,6 +84,8 @@ namespace IKEA.PL
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

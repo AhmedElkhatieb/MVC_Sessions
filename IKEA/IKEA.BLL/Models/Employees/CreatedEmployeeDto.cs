@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IKEA.DAL.Common.Enums;
+using Microsoft.AspNetCore.Http;
 
 namespace IKEA.BLL.Models.Employees
 {
@@ -31,6 +32,6 @@ namespace IKEA.BLL.Models.Employees
         public EmployeeType EmployeeType { get; set; }
         [Display(Name = "Department")]
         public int? DepartmentId { get; set; }
-
+        public IFormFile? Image {  get; set; }
     }
 }

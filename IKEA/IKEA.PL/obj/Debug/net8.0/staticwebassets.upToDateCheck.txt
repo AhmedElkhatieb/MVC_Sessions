@@ -1,5 +1,7 @@
+wwwroot\css\AuthLayout.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Files\Images\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

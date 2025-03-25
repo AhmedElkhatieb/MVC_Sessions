@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\IKEA.PL.6kzxylr2tk.bundle.scp.css"
     },
     {
+      "Id": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg",
+      "PackagePath": "staticwebassets\\Files\\Images\\dbcba906-3f64-46fd-b7ce-b97480f91ba5.jpeg"
+    },
+    {
+      "Id": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\AuthLayout.css",
+      "PackagePath": "staticwebassets\\css\\AuthLayout.css"
+    },
+    {
       "Id": "C:\\Web\\Backend\\05 MVC\\MVC_Sessions\\IKEA\\IKEA.PL\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

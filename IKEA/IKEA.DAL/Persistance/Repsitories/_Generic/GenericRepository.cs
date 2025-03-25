@@ -17,13 +17,13 @@ namespace IKEA.DAL.Persistance.Repsitories._Generic
         {
             _DbContext = dbContext;
         }
-        public IEnumerable<T> GetAll(bool WithNoTracking = true)
+        public async  Task<IEnumerable<T>> GetAllAsync(bool WithNoTracking = true)
         {
             if (WithNoTracking)
             {
-                return _DbContext.Set<T>().Where(X => !X.IsDeleted).AsNoTracking().ToList();
+                return await _DbContext.Set<T>().Where(X => !X.IsDeleted).AsNoTracking().ToListAsync();
             }
-            return _DbContext.Set<T>().Where(X => !X.IsDeleted);
+            return await _DbContext.Set<T>().Where(X => !X.IsDeleted).ToListAsync();
         }
 
         public IQueryable<T> GetAllAsQueryable()
@@ -31,12 +31,12 @@ namespace IKEA.DAL.Persistance.Repsitories._Generic
             return _DbContext.Set<T>();
         }
 
-        public T? GetById(int id)
+        public async Task<T?> GetByIdAsync(int id)
         {
             //var department = _DbContext.Departments.Local.FirstOrDefault(D => D.Id == id);
             //return department;
             ////.Local to search it locally if we already got it or use find
-            return _DbContext.Set<T>().Find(id);
+            return await _DbContext.Set<T>().FindAsync(id);
         }
 
         public void Add(T entity)
